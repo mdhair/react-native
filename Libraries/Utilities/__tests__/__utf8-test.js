@@ -11,7 +11,7 @@
 
 'use strict';
 
-const {encode} = require('../utf8');
+const {encode} = require('../__utf8');
 
 describe('UTF-8 encoding:', () => {
    it('can encode code points < U+80', () => {
